@@ -1,0 +1,251 @@
+@media only screen and (max-width:575px) {
+    .postion {
+        width: 100%;
+        height: 350px;
+        background-position: center;
+
+    }
+
+    .postion p {
+        text-align: center;
+        padding-top: 170px;
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    .container2{
+        width: 100%;
+        margin:0 auto;
+       
+    }
+    #one{
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .about h3{
+        text-align: center;
+    }
+    .about p{
+        /* padding-left: 20px; */
+        text-align: justify;
+    }
+
+    .pic-data{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center; 
+    }
+
+    .pic-data div p{
+        width: 200px;
+        /* padding: 0; */
+    }
+    .pic-data img{
+        width: 200px;
+        /* margin-top: 50px; */
+    
+        
+    }
+    .pic-data div a{
+        padding: 7px 80px;
+        font-size: 12px;
+    }
+
+    .contact1 h3{
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .contact1 p{
+        text-align: center;
+        font-size: .9rem;
+        padding-bottom: 20px;
+
+    }
+
+    /* .contact3 a{
+       /* margin-left: 120px; 
+       align-items: center;
+    } */
+    
+    .contact2 input:focus{
+        background-color: #ffff;
+        color: black;
+    }
+    .contact3{
+        display: flex;
+    width: 100%;
+    justify-content: center;
+    }
+   
+    footer img{
+        width: 100%;
+}
+
+}
+
+@media only screen and (min-width:576px) and (max-width:768px){
+    .postion {
+        width: 100%;
+        height: 350px;
+        background-position:cover;
+
+    }
+
+    .postion p {
+        text-align: center;
+        padding-top: 170px;
+        padding-left: 50px;
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    .container2{
+        width: 100%;
+       
+       
+    }
+
+    .project div{
+        height: 180px; 
+        width: 260px;
+        color: white;
+        margin-top: 2px;
+    } 
+
+    #one{
+        text-align: center;
+    }
+
+    footer img{
+        width: 100%;
+    }
+
+    .pic-data{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center; 
+        gap: 15px;
+    }
+
+    .pic-data div p{
+        width: 200px;
+        /* padding: 0; */
+    }
+    .pic-data img{
+        width: 200px;
+        /* margin-top: 50px; */
+    
+        
+    }
+    .pic-data div a{
+        padding: 8px 80px;
+        font-size: 12px;
+        /* margin-left: 10px; */
+    }
+
+    .about h3{
+        text-align: center;
+    }
+
+    .about p{
+        text-align: justify;
+    }
+
+
+    .contact3{
+        display: flex;
+    width: 100%;
+    justify-content: center;
+    }
+    .contact1 {
+        text-align: center;
+
+    }
+
+
+}
+
+@media only screen and (min-width:769px) and (max-width:991px){
+    .postion {
+        width: 100%;
+        height: 350px;
+        background-position:cover;
+
+    }.postion p{
+        text-align: center;
+        padding-top: 200px;
+        font-size: 1.5rem;
+        color: white;
+    }
+    .container2{
+        width: 100%;
+       
+       
+    }
+    .project div{
+        height: 180px; 
+        width: 260px;
+        color: white;
+        margin-top: 2px;
+    } 
+
+    #one{
+        text-align: center;
+    }
+
+    .about h3{
+        text-align: center;
+    }
+
+    .about p{
+        text-align: justify;
+    }
+
+    .pic-data{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center; 
+        gap: 15px;
+    }
+
+    .pic-data div p{
+        width: 200px;
+        /* padding: 0; */
+    }
+    .pic-data img{
+        width: 200px;
+        /* margin-top: 50px; */
+    
+        
+    }
+
+    .pic-data div a{
+        padding: 8px 75px;
+        font-size: 12px;
+        /* margin-left: 10px; */
+    }
+
+    .contact3{
+        display: flex;
+    width: 100%;
+    justify-content: center;
+    }
+    .contact1 {
+        text-align: center;
+
+    }
+    footer img{
+        width: 100%;
+    }
+}

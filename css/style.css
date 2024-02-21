@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+html{
+    font-size: 16px;
+}
+
+.container1{  
+    background-color:#ffff;
+    height: 40px; 
+    outline: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display:flex;
+    justify-content: space-between;
+
+
+}
+.nav-bar1 {
+    padding-top: 10px;
+}
+
+.container1 a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    font-weight: 500;
+   
+    
+ }
+.nav-bar{
+    padding-top: 10px;
+} 
+
+.container1 a:hover{
+    /* background-color: black; */
+    color:black;
+    border-bottom: 2px solid black;
+
+}
+
+
+
+
+.postion{
+    background-image: url(/image/architect.jpg);
+    height: 500px;
+    width: 70%;
+    margin:0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-top: 50px; */
+}
+.postion p{
+    text-align: center;
+    padding-top: 285px;
+    font-size: 1.5rem;
+    color: white;
+}
+.postion span{
+    border: 1px solid black;
+    background-color: black;
+    font-weight: 700;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    display:inline-block;
+    opacity: .8;
+
+}
+.container2{
+    width: 70%;
+    margin:0 auto;
+   
+}
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    
+}
+ .project div{
+    height: 180px; 
+    width: 260px;
+    color: white;
+    margin-top: 2px;
+} 
+.project div h3{
+    border: 1px solid black;
+    background-color: black;
+    font-size: small;
+    width: 90px;
+    text-align: center;
+    font-weight: 100;
+
+}
+.head1{
+    background-image: url(/image/house5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+}
+.head1 h3{
+    width: 110px !important;
+}
+.head2{
+    background-image: url(/image/house2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.head3{
+    background-image: url(/image/house3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.head4{
+    background-image: url(/image/house4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.head5{
+    background-image: url(/image/house2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.head5 h3{
+    width: 110px !important;
+}
+.head6{
+    background-image: url(/image/house5.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.head7{
+    background-image: url(/image/house4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.head8{
+    background-image: url(/image/house3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container2 hr{
+    opacity: .2;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+} 
+#one{
+    margin-top: 50px;
+    font-weight: 400;
+}
+
+.container3{
+    margin: auto;
+    width: 70%;
+}
+
+
+.about{
+    margin-top: 50px;
+
+}
+.about h3{
+    font-weight: 400;
+}
+.about p{
+    font-size: .8rem;
+    margin-top: 30px;
+}
+
+.pic-data{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+   
+}
+.pic-data img{
+    width: 250px;
+    margin-top: 50px;
+
+    
+}
+.pic-data div h4{
+    padding-bottom: 10px;
+}
+.pic-data div p{
+    font-size: 10.8px;
+    padding-bottom: 15px;
+
+}
+
+.pic-data div a{
+    text-decoration: none;
+    border: 1px solid rgb(231, 231, 213);
+    background-color: rgb(231, 231, 213);
+    border-radius: 10%;
+    padding: 8px 90px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    color: black;
+
+}
+.pic-data div a:hover{
+    background-color: black;
+    color: white;
+}
+footer{
+    width: 100%;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    
+    
+
+
+}
+footer img{
+    width: 70%;
+    margin-top: 100px;
+    padding: auto;
+
+}
+footer div{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100%;
+    font-size: smaller;
+}
+footer div a{
+    color: white;
+}
+
+.contact{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.contact p{
+    margin-top: 30px;
+}
+.contact1 h3{
+    font-weight: 300;
+}
+.contact2 input{
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 15px;
+    opacity: .7;
+
+}
+.contact2 input:focus{
+    background-color: #ffff;
+    color: black;
+}
+.contact3  {
+    /* display:  */
+    margin-top: 20px;
+    
+}
+.contact3 a{
+    text-decoration: none;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    border-radius: 10%;
+    padding: 5px 5px;
+    font-size: small;
+}
